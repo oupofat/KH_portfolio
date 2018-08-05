@@ -70,6 +70,7 @@
         .dropdown-menu {
             position: relative;
             float: none;
+
         }
     }
 
@@ -112,12 +113,13 @@
         text-align: center;
     }
 
-    a {
+    .tweet_icon,
+    .email_icon {
         color: red;
         font-size: 2em;
     }
 
-    .tweet,
-    .email {
+    .tweet_text,
+    .email_text {
         color: white;
     }
