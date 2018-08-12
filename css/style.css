@@ -100,31 +100,14 @@
         text-align: center;
         color: red;
     }
-
+/*icons */
     .icons {
         display: inline-block;
         text-align: center;
         font-size: 5em;
         color: white;
     }
-
-    .email_twitter {
-        display: inline-block;
-        text-align: center;
-    }
-
-    .tweet_icon,
-    .email_icon {
-        color: red;
-        font-size: 2em;
-    }
-
-    .tweet_text,
-    .email_text {
-        color: white;
-    }
-
-    /* adds a shake to the icons*/
+/* adds a shake to the icons*/
 
     .icons:hover {
         animation: shake 0.5s;
@@ -166,3 +149,22 @@
             transform: translate(1px, -2px) rotate(-1deg);
         }
     }
+
+/* twitter and email icons*/
+    .email_twitter {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .tweet_icon,
+    .email_icon {
+        color: red;
+        font-size: 2em;
+    }
+
+    .tweet_text,
+    .email_text {
+        color: white;
+    }
+
+    
